@@ -2,6 +2,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Header from "../components/Header";
 import {SearchIcon, MicrophoneIcon} from "@heroicons/react/solid";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -41,6 +42,8 @@ export default function Home() {
 
 
       {/* Footer */}
+
+      <Footer/>
 
      
     </div>
